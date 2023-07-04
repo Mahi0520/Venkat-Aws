@@ -21,7 +21,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          role-to-assume: ${{ secrets.VEDA }}
+          role-to-assume: ${{ secrets.VENKAT }}
           aws-region: ap-south-1
       - name: Installing serverless
         run: |
