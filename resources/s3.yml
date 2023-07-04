@@ -1,0 +1,7 @@
+---
+Resources:
+  S3Bucket0307:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: Venky-s3-bucket-demo

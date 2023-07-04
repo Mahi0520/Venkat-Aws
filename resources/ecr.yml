@@ -1,0 +1,16 @@
+---
+Resources:
+  MyRepository0307: 
+    Type: AWS::ECR::Repository
+    Properties: 
+      RepositoryName: "test-veda-repository"
+
+  MyQueue0307: 
+    Type: AWS::SQS::Queue
+    Properties: 
+      QueueName: "SampleQueu-veda"
+
+  MySNSTopic0307:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: "SampleTopic-veda"
