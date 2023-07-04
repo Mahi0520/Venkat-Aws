@@ -1,5 +1,5 @@
 ---
-InstanceSecurityGroup:
+Resources:
   Type: AWS::EC2::SecurityGroup
   Properties:
     GroupDescription: Allow http to client host
